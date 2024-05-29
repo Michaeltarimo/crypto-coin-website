@@ -114,7 +114,7 @@ const Index = () => {
 
 
         <div id="about" className="w-full h-screen xs:gap-10 flex md:flex-col md:pt-30 items-center justify-center pt-32 lg:pt-5 gap-4">
-          <div className="w-1/2 flex items-center justify- xs:order-last">
+          <div className="w-1/2 flex items-center justify- xs:order-last xs:hidden">
             <Image src={about} alt="image" className="w-[80%]" />
           </div>
           <div className="w-1/2 flex flex-col items-start justify-start md:items-center md:justify-center md:w-full">
@@ -173,7 +173,7 @@ const Index = () => {
           <div className="w-1/2 flex items-center justify-center md:pt-10">
             <Image src={base_picture} alt="image" className="" />
           </div>
-          <div className="w-1/2 flex flex-col items-start justify-start">
+          <div className="w-1/2 md:w-full flex flex-col items-start justify-start">
             <h1 className="text-[70px] lg:text-[50px] md:text-center"><>How to buy $CABAL</></h1>
             <div className="flex items-start justify-start pt-10">
               <>
@@ -199,7 +199,7 @@ const Index = () => {
           <div className="w-1/2 flex items-center justify-center md:pt-10">
             <Image alt="image" className="" />
           </div>
-          <div className="w-1/2 flex flex-col items-start justify-start order-first">
+          <div className="w-1/2 md:w-full flex flex-col items-start justify-start order-first">
             <h1 className="text-[70px] lg:text-[50px] md:text-center"><>Or buy using Jupiter:</></h1>
             <div className="flex items-start justify-start pt-10">
               <>
@@ -216,7 +216,7 @@ const Index = () => {
           <div className="w-1/2 flex items-center justify-center md:pt-10">
             <Image alt="image" className="" />
           </div>
-          <div className="w-1/2 flex flex-col items-start justify-start md:order-first">
+          <div className="w-1/2 md:w-full flex flex-col items-start justify-start md:order-first">
             <h1 className="text-[70px] lg:text-[50px] md:text-center"><>Or buy using Mayan:</></h1>
             <div className="flex items-start justify-start pt-10">
               <>
