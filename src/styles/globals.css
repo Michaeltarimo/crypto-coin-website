@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* globals.css */
+body {
+  font-family: 'Jersey 15', 'Madimi One', 'Shantell Sans', sans-serif;
+}
+
+/* In your global CSS or CSS file */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 70s linear infinite;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
