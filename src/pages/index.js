@@ -22,7 +22,7 @@ import AnimatedText from "@/components/AnimatedText";
 
 
 const Index = () => {
-  const tokenAddress = 'hsdkskadfjkasjdakld923ksdajf23ksdfnasmc';
+  const tokenAddress = 'TBA';
 
   const handleCopy = () => {
     navigator.clipboard.writeText(tokenAddress);
