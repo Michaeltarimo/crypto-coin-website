@@ -8,7 +8,7 @@ import bitsol from "@/../public/img/bitsol.jpg";
 import capitain from "@/../public/img/capitain.jpg";
 import monoc from "@/../public/img/monoc.jpg";
 import shebal from "@/../public/img/shebal.jpg";
-import about from "@/../public/img/demo3.png";
+import about from "@/../public/img/shoot.png";
 import base_picture from "@/../public/img/how_to.png";
 import solanec from "@/../public/img/solanec.jpg";
 import xIcon from "@/../public/img/social_x.png";
