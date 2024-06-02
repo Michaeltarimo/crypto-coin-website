@@ -13,7 +13,7 @@ const index = () => {
           <div className="flex flex-col w-1/3 items-start justify-start lg:items-center lg:justify-center lg:w-full">
             <h1 className="text-[80px] sm:text-[60px]">$CABAL</h1>
             <div className="flex items-start justify-start gap-10 pt-10">
-              <Link href="https://x.com/anti_cabal" target="_blank">
+              <Link href="https://x.com/anticabalCoin" target="_blank">
                 <Image src={xIcon} alt="X" className="w-16 transition transition-transform duration-400 hover:scale-105" />
               </Link>
               <Link href="https://t.me/anti_cabal" target="_blank">
