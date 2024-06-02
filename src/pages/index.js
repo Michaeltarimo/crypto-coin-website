@@ -340,7 +340,7 @@ const Index = () => {
           <div className="flex flex-col w-[40%] md:w-full sm:pt-60 items-start justify-center md:items-center md:pt-20">
             <h1 className="text-[60px] font-extrabold text-black lg:text-[50px] sm:text-[30px] md:text-center md:text-white">Follow Cabal on social media</h1>
             <div className="flex items-start justify-start gap-10 pt-10">
-              <Link href="https://x.com/anti_cabal" target="_blank">
+              <Link href="https://x.com/anticabalCoin" target="_blank">
                 <Image src={xIcon} alt="X" className="w-16 transition transition-transform duration-400 hover:scale-105" />
               </Link>
               <Link href="https://t.me/anti_cabal" target="_blank">
